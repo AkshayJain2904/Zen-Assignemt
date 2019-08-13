@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.xml.parsers.SAXParserFactory"/>
+<fullyQualifiedTypeName name="javax.xml.parsers.SAXParser"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.zensar.xml.sax.parser.MovieXmlParser"/>
+<fullyQualifiedTypeName name="com.zensar.xml.sax.parser.MovieXmlHandler"/>
+</qualifiedTypeNameHistroy>

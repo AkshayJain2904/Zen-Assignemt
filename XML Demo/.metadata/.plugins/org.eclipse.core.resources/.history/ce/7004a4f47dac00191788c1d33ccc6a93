@@ -1,0 +1,15 @@
+package com.zensar.xml.sax.parser;
+
+import java.io.File;
+
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
+public class MovieXmlParser {
+	public static void main(String[] args) {
+		SAXParserFactory saxParserFactory=SAXParserFactory.newInstance();
+		SAXParser saxParser=saxParserFactory.newSAXParser();
+		saxParser.parse(new File("movieldetail.xml"), new MovieXmlParser());
+	}
+
+}

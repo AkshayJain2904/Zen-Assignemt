@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zen:order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:zen="http://www.example.org/orders" xsi:schemaLocation="http://www.example.org/orders orders.xsd ">
+  <zen:order>
+    <zen:orderID>zen:orderID</zen:orderID>
+    <zen:custID>zen:custID</zen:custID>
+    <zen:custName>zen:custName</zen:custName>
+    <zen:plan plan=""/>
+    <zen:service service=""/>
+    <zen:billingCycle>monthly</zen:billingCycle>
+    <zen:billingAddress>zen:billingAddress</zen:billingAddress>
+    <zen:serviceAddress serviceAddress=""/>
+  </zen:order>
+</zen:order>

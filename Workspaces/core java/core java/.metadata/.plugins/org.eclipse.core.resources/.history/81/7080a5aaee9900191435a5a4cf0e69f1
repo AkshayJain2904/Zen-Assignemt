@@ -1,0 +1,27 @@
+package assignmentdaytwo;
+
+import java.util.Scanner;
+
+public class ArrayThree {
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the elements of array");
+		int a[][]=new int[3][3];
+		int b[][]=new int[3][3];
+		for(int i=0;i<a.length;i++)
+		{
+			for(int j=0;j<a.length;j++)
+			{
+				a[i][j]=sc.nextInt();
+			}
+		}
+		for(int i=0;i<b.length;i++)
+		{
+			for(int j=0;j<b.length;j++)
+			{
+				b[i][j]=sc.nextInt();
+			}
+		}
+	}
+}

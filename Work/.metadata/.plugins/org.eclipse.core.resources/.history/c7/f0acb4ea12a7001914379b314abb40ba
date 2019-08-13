@@ -1,0 +1,99 @@
+package com.zensar;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeDAO {
+	private static   Connection connection;
+	public Connection createConnection() {
+		try {
+				Class.forName("com.mysql.jdbc.Driver");
+				System.out.println("driver loaded");
+				 connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/akshay","root","root");
+				System.out.println("connection established");
+				
+		}
+		catch (Exception e) {
+				e.printStackTrace();
+			}
+		
+		return connection;
+		
+	}
+	public void deleteRecord(int id) {
+		Connection connection=createConnection();
+		PreparedStatement pStatement;
+		int result=0;
+		try {
+			pStatement = connection.prepareStatement("delete from employee where empId=?");
+			pStatement.setInt(1,id);
+			pStatement.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public int updateRecord(double salary,int empid) {
+		Connection connection=createConnection();
+		PreparedStatement pStatement;
+		int result=0;
+		try {
+			pStatement = connection.prepareStatement("update employee set salary=? where empId=?");
+			pStatement.setDouble(1,salary);
+			pStatement.setInt(2,empid);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		return result;
+	}
+	public int addEmployee(Employee employee) {
+		Connection connection=createConnection();
+		PreparedStatement pStatement;
+		
+		int result=0;
+		try {
+			pStatement = connection.prepareStatement("insert into employee values(?,?,?)");
+			pStatement.setInt(1,employee.getEmpId());
+			pStatement.setString(2,employee.getName());
+			pStatement.setDouble(3, employee.getSalary()); 
+			result=pStatement.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("Record inserted");
+		return result;
+	}
+	public List<Employee> viewAllEmployees() {
+		Connection connection=createConnection();
+		List<Employee> list=new ArrayList<Employee>();
+		try {
+			Statement statement=connection.createStatement();
+			ResultSet resultSet=statement.executeQuery("select * from employee");
+			
+			while (resultSet.next()) {
+				Employee employee=new Employee();
+				employee.setEmpId(resultSet.getInt(1));
+				employee.setName(resultSet.getString(2));
+				employee.setSalary(resultSet.getDouble(3));
+				list.add(employee);
+			}
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return list;
+	}
+	 
+}

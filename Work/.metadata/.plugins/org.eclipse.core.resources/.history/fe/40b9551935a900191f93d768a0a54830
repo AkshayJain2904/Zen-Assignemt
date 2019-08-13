@@ -1,0 +1,38 @@
+package com.zensar;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class EmployeeDAO{
+	
+	private Session session;
+	private SessionFactory sessionFactory;
+	
+	public void addEmployee(Employee employee) {
+		sessionFactory= new Configuration().configure().buildSessionFactory();
+		Session session =  sessionFactory.openSession();
+		session.beginTransaction();
+		employee.setEmpId(employee.getEmpId());
+		employee.setName(employee.getName());
+		employee.setSalary(employee.getSalary());
+		
+		
+	}
+	public void updateRecord() {
+		sessionFactory= new Configuration().configure().buildSessionFactory();
+		Session session =  sessionFactory.openSession();
+		session.beginTransaction();
+	}
+	public void deleteRecord() {
+		sessionFactory= new Configuration().configure().buildSessionFactory();
+		Session session =  sessionFactory.openSession();
+		session.beginTransaction();
+	}
+	public void viewAllEmployee() {
+		sessionFactory= new Configuration().configure().buildSessionFactory();
+		Session session =  sessionFactory.openSession();
+		session.beginTransaction();
+	}
+	
+}

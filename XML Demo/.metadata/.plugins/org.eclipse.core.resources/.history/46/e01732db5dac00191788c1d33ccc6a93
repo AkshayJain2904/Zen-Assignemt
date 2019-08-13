@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "movies.dtd" >
+<movies>
+  <movie>
+    <code>101</code>
+    <title>Sairat</title>
+    <release-date>
+    <day>12</day>
+    <month>06</month>
+    <year>2019</year>
+    </release-date>
+    <theatre-name>theatre-name</theatre-name>
+  	<city>Indore</city>
+  	<city>Mumbai</city>
+  </movie>
+</movies>

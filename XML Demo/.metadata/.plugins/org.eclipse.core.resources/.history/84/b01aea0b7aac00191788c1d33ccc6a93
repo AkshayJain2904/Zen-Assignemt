@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zen:movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:zen="http://www.zensar.com/movies" xsi:schemaLocation="http://www.zensar.com/movies movies.xsd ">
+
+    <zen:code>5762</zen:code>
+  
+  <zen:title>YJHD</zen:title>
+  <zen:theater-name>INOX</zen:theater-name>
+  <zen:city>Indore</zen:city>
+  
+    
+   <zen:code>5412</zen:code>
+  <zen:title>X-Man</zen:title>
+  <zen:theater-name>INOX</zen:theater-name>
+  <zen:city>Indore</zen:city>
+  <zen:city>Mumbai</zen:city>
+ 
+</zen:movies>

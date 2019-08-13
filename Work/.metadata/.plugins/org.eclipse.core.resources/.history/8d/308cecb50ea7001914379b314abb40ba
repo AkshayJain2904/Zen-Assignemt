@@ -1,0 +1,31 @@
+<%@page import="com.zensar.Employee"%>
+<%@page import="java.util.*"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>List of All Employee</h2>
+	<%List<Employee> list=(List<Employee>)session.getAttribute("list"); %>
+	<table>
+			<th>Employee id</th>
+			<th>Name</th>
+			<th>Salary</th>
+
+			<% for(Employee employee:list){ %>
+					<tr>
+						<td> <%=employee.getEmpId() %> </td>
+						<td><%=employee.getName() %> </td>
+						<td><%=employee. getSalary() %> `</td>
+						<td><a href="deleteRecord?empId=<%=employee.getEmpId()%>">Delete</a></td>
+						<td><a href="updateRecord?empId=<%=employee.getEmpId()%>">Update</a></td>
+					</tr>
+				<% }
+			%>
+	</table>
+</body>
+</html>

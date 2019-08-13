@@ -1,0 +1,11 @@
+<p>LOGIN</p>
+<form>
+    Username<input type="text" id="user" name="username" [(ngModel)]="user.username"><br>
+    Password<input type="password" id="password" name="password" [(ngModel)]="user.password"><br>
+    <input type="submit" (click)="validate()" value="submit">
+</form>
+
+<p appHighlight>
+{{user.username| uppercase}}
+{{user.username| lowercase}}
+</p>

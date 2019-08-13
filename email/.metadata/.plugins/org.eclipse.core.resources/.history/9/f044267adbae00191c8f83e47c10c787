@@ -1,0 +1,5 @@
+package com.zensar.email;
+
+public class EmailUtil {
+
+}

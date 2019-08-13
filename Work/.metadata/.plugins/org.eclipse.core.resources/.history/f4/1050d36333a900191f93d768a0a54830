@@ -1,0 +1,16 @@
+package com.zensar;
+
+
+public class EmployeeDAO{
+	
+	public void addEmployee() {
+		
+	}
+	public void updateRecord() {
+		
+	}
+	public void deleteRecord() {
+		
+	}
+	
+}

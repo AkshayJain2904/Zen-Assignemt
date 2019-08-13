@@ -1,0 +1,25 @@
+package com.zensar.services.business;
+
+import java.util.List;
+
+import com.zensar.entites.Product;
+
+/*
+ * Author:-Akshay Jain
+ * Creation date:-25th July 2019 5.55PM
+ * Modified Date:-26th July 2019 10.00AM
+ * Version:1.0
+ * Copyright:-Zensar Technologies All rights reserved.
+ * Description:-It is business object interface.
+ * It focuses on business logic of Product.
+ * */
+public interface ProductServices {
+	void create(Product product);
+	void edit(Product product);
+	void remove(Product product);
+	Product findProductbyId(int productId);
+	List<Product> findAllProduct();
+	int getProductCount();
+	List<Product> findProductByBrands(String brand);
+	List<Product> findProductByPrice(double minPrice,double maxPrice);
+}

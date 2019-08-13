@@ -1,0 +1,8 @@
+package assignmentdaytwo;
+
+public class AccountHolder {
+	private int account_number; 
+	private String account_holder_name;
+	private double account_balance;
+
+}

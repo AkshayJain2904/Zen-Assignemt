@@ -1,0 +1,33 @@
+package com.zensar;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class EmployeeDAO {
+	public Connection createConnection() {
+		try {
+				Class.forName("com.mysql.jdbc.Driverr");
+				System.out.println("driver loaded");
+				Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/akshay","root","root");
+				System.out.println("connection established");
+				PreparedStatement pStatement=connection.prepareStatement("insert into employee values(?,?,?)");
+				
+			/*
+			 * pStatement.setInt(1,empId); pStatement.setNString(2, name);
+			 * pStatement.setDouble(3, salary); pStatement.executeUpdate();
+			 */
+				connection.close();
+		}
+		catch (Exception e) {
+				e.printStackTrace();
+			}
+		
+		return null;
+		
+	}
+	/*
+	 * public int addEmployee(Employee employee) { return 1; }
+	 */
+}

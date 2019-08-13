@@ -1,0 +1,58 @@
+package com.zensar.dao;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.zensar.entites.Product;
+/*
+ * Author:-Akshay Jain
+ * Creation date:-26th July 2019 10.00AM
+ * Modified Date:-26th July 2019 10.00AM
+ * Version:1.0
+ * Copyright:-Zensar Technologies All rights reserved.
+ * Description:-Data Access Object implementor class.
+ * Uses hibernate API to access data.
+ * */
+public class ProductDaoImpl implements ProductDao {
+	private Session session;
+	SessionFactory sessionFactory= new Configuration().configure().buildSessionFactory();
+	
+	session =  sessionFactory.openSession();
+	
+	@Override
+	public void insert(Product product) {
+		Transaction txTransaction=session.beginTransaction();
+		session.save(Product);
+		session.getTransaction().commit();
+		session.close();
+	}
+
+	@Override
+	public void update(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Product getById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

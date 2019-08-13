@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="2">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n<external location\="C\:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" name\="Chrome"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8056/MVCDemo/addEmployee.jsp?empId\=120&name\=View&salary\=535|*|http\://localhost\:8056/MVCDemo/addEmployee.jsp|*|http\://localhost\:8056/MVCDemo/|*|http\://localhost\:8056/MVCDemo/addEmployee.jsp?empId\=120&name\=YV&salary\=4543&submit\=submit|*|http\://localhost\:8056/MVCDemo/addEmployee.jsp?employeeId\=120&employeename\=Beauty&employeesal\=54353&submit\=submit|*|http\://localhost\:8056/MVCDemo/addEmployee.jsp?employeeId\=43&employeename\=hiujh&employeesal\=878&submit\=submit|*|http\://localhost\:8056/MVCDemo/servlet/com.zensar.EmployeeController|*|

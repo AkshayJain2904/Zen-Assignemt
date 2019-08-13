@@ -1,0 +1,14 @@
+<form>
+CustomerName<input type="text" name="name" [(ngModel)]="customer.name"><br>
+CustomerBirthDate<input type="date" name="dob" [(ngModel)]="customer.birthDay"><br>
+<button (click)="add()">Submit</button>
+</form>
+<p>Your name is{{customer.name| uppercase}}</p>
+<p>Your dob is{{customer.dob| date:"fullDate"}}</p>
+<p>Your dob is{{customer.dob| date:"mediumDate"}}</p>
+<p>Your dob is{{customer.dob| date:"longDate"}}</p>
+<p>Your dob is{{customer.dob| date:"shortDate"}}</p>
+
+
+<button (click)="changeDateFormate()">Change date formate</button> 
+<p>Birth date is{{customer.dob| date:formte}}</p>

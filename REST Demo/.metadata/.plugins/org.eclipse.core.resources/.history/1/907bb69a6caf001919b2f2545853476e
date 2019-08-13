@@ -1,0 +1,65 @@
+package com.zensar.services.business;
+
+import java.util.List;
+
+import com.zensar.entites.Product;
+/*
+ * Author:-Akshay Jain
+ * Creation date:-25th July 2019 5.55PM
+ * Modified Date:-26th July 2019 10.00AM
+ * Version:1.0
+ * Copyright:-Zensar Technologies All rights reserved.
+ * Description:-It is business object interface.
+ * It focuses on business logic of Product.
+ * */
+public class ProductServiceImpl implements ProductServices {
+
+	@Override
+	public void create(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void edit(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void remove(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Product findProductbyId(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> findAllProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getProductCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Product> findProductByBrands(String brand) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> findProductByPrice(double minPrice, double maxPrice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

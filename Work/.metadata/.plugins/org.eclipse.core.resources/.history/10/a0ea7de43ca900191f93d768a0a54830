@@ -1,0 +1,52 @@
+package com.zensar;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.hibernate.query.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class EmployeeDAO{
+	
+	static Session session;
+	static SessionFactory sessionFactory;
+	
+	public void addEmployee(Employee employee) {
+		Configuration configObj = new Configuration();
+        configObj.configure("hibernate.cfg.xml");
+		sessionFactory= configObj.buildSessionFactory();
+		session = buildSessionFactory().openSession();
+		session.beginTransaction();
+		Employee employee1=new Employee();
+		employee1.setEmpId(employee.getEmpId());
+		employee1.setName(employee.getName());
+		employee1.setSalary(employee.getSalary());
+		session.getTransaction().commit();
+		session.save(employee1);
+		System.out.println("Record inserted");
+		session.close();	
+	}
+	public List<Employee> viewAllEmployees() {
+		List<Employee> list;
+		sessionFactory= new Configuration().configure().buildSessionFactory();
+		Session session =  sessionFactory.openSession();
+		session.beginTransaction();
+		Query query=session.createQuery("from Employee");
+		list=query.getResultList();
+		session.getTransaction().commit();
+		session.close();
+		return list;	 
+	}
+	public void updateRecord() {
+		sessionFactory= new Configuration().configure().buildSessionFactory();
+		Session session =  sessionFactory.openSession();
+		session.beginTransaction();
+	}
+	public void deleteRecord() {
+		sessionFactory= new Configuration().configure().buildSessionFactory();
+		Session session =  sessionFactory.openSession();
+		session.beginTransaction();
+	}
+	
+}

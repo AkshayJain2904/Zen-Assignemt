@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.zensar.com/movies" xmlns:zen="http://www.zensar.com/movies" elementFormDefault="qualified">
+<element name="movies">
+	<complexType>
+		<sequence>
+			<element name=""></element>
+		
+		</sequence>
+	</complexType>
+</element>
+
+</schema>

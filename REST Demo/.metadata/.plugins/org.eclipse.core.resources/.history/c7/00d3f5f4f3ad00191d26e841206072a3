@@ -1,0 +1,10 @@
+package com.zensar.services;
+
+import javax.ws.rs.Path;
+
+@Path("/zenhello")
+public class Hello {
+	public void name() {
+		
+	}
+}

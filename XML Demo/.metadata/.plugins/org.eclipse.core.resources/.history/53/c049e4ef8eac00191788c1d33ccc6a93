@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/orders" xmlns:zen="http://www.example.org/orders" elementFormDefault="qualified">
+<element name="order">
+	<complexType>
+		<sequence>
+			<element name="order" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="orderID">
+							<simpleType>
+								<restriction base="string">
+									<pattern value="oi-[0-9]{4}"></pattern>
+								</restriction>
+							</simpleType>
+						</element>
+						<element name="custID">
+							<simpleType>
+								<restriction base="string">
+									<pattern value="c-[0-9]{4}"></pattern>
+								</restriction>
+							</simpleType>
+						</element>
+						<element name="custName">
+							<simpleType>
+								<restriction base="string">
+									<pattern value="[A-Z]"></pattern>
+									<minLength value="10"></minLength>
+								</restriction>
+							</simpleType>
+						</element>
+							<element name="plan">
+								<complexType>
+									<attribute name="plan" type="string" use="required"></attribute>
+								</complexType>
+							</element>
+							<element name="service">
+								<complexType>
+									<attribute name="service" type="string" use="required"></attribute>
+								</complexType>
+							</element>
+							<element name="billingCycle">
+								<simpleType>
+									<restriction base="string">
+									 <enumeration value="monthly"></enumeration>
+									 <enumeration value="quaterly"></enumeration>
+									 <enumeration value="half-yearly"></enumeration>
+									 <enumeration value="yearly"></enumeration>
+									</restriction>
+								</simpleType>
+							</element>
+							
+							
+							<element name="billingAddress" type="string"></element>
+							<element name="serviceAddress">
+								<complexType>
+									<attribute name="serviceAddress" type="string" use="required"></attribute>
+								</complexType>
+							</element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "movies.dtd" >
+<movies>
+  <movie>
+    <code>101</code>
+    <title>Sairat</title>
+    <release-date>
+    <day>12</day>
+    <month>06</month>
+    <year>2019</year>
+    </release-date>
+    <theatre-name>INOX</theatre-name>
+  	<city>Indore</city>
+  	<city>Mumbai</city>
+  </movie>
+  
+  
+   <movie>
+    <code>102</code>
+    <title>Kabir Singh</title>
+    <release-date>
+    <day>31</day>
+    <month>12</month>
+    <year>2018</year>
+    </release-date>
+    <theatre-name>PVR</theatre-name>
+  	<city>Indore</city>
+  	<city>Mumbai</city>
+  </movie>
+  
+   <movie>
+    <code>103</code>
+    <title>Sholey</title>
+    <theatre-name>Carnival</theatre-name>
+  	<city>Indore</city>
+  	<city>Mumbai</city>
+  </movie>
+  
+</movies>

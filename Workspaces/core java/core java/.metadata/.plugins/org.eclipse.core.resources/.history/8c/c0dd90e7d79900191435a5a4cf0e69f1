@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+class Employee {
+	private int empid;
+	private String name;
+	private double salary;
+	
+	
+	
+	public Employee() {
+		empid=101;
+		name="Akshay";
+		salary=125465;
+		
+	}
+	
+	public Employee(int empid, String name, double salary) {
+		super();
+		this.empid = empid;
+		this.name = name;
+		this.salary = salary;
+	}
+
+	public void accept()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the details");
+		empid=sc.nextInt();
+		name=sc.next();
+		salary=sc.nextDouble();
+	}
+	public void display()
+	{
+		System.out.println("Empid is:-"+empid+" Name is:-"+name+" and Salary is"+salary);
+	}
+	public String toString()
+	{
+		return empid+" "+name+" "+salary;
+	}
+}
+public class Test {
+	public static void main(String args[])
+	{
+		
+	    Employee e1=new Employee();
+	    Employee e2=new Employee(102,"Baccha",10220);
+	    System.out.println(e2.toString()); //it is basically genrating hash code
+	    e1.display();
+	    //e2.display();
+	    
+	}
+}

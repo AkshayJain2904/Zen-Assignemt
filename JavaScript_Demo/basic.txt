@@ -1,0 +1,80 @@
+<!--
+<html>
+    <head>
+        <title>Understanding JS</title>
+    
+        <script type="text/javascript">
+            var target=0
+            target=Number(prompt("Enter a number"));
+            var start=0
+            while(start<=target)
+                {
+                    document.write(start+"<br>");
+                    start=start+2;
+                }
+        </script>
+        </head>    
+    <body>
+        
+    </body>
+</html>
+-->
+
+
+
+<!--<html>
+    <head>
+        <title>Understanding JS</title>
+    </head>    
+    <body>
+        
+        <h2>JavaScript</h2>
+        <form>
+            <table>
+                 <tr>
+         <td>Email Address</td>
+                <td><input type="email" id="eaddress"></td>
+            </tr>    
+            <tr>
+                <td>Email part</td>            
+                <td><input type="text" id="epart" ></td>
+                </tr>
+            <tr>
+                    <td>Domain Part</td>
+                    <td><input type="text" name="result" id="dpart" ></td>
+            </tr>
+        <tr>
+                <td><input type="button" value="add" onclick="getEmailAndDomainParts()"></td>
+        </tr>
+            </table>
+        </form>
+        
+        
+        <form runat="server" id="f1">
+            <table>
+            <tr>
+         <td>First Number</td>
+                <td><input type="text" name="num1" id="fnum" runat="server"><br><br></td>
+            </tr>    
+            <tr>
+                <td>Last Number</td>            
+                <td><input type="text" name="num2" id="lnum" runat="server"><br><br></td>
+                </tr>
+            <tr>
+                    <td>Result</td>
+                    <td><input type="text" name="result" id="result" runat="server"><br><br></td>
+            </tr>
+        <tr>
+                <td><input type="button" value="add" onclick="addNumbers()"></td>
+        </tr>
+                </table>
+        </form>
+        <script type="text/javascript" src="Scripts/video1.js"></script>
+        <script src="Scripts/basic.js"></script>
+        
+    </body>
+       
+    <script>
+        alert("This is internal JS")
+    </script>
+</html>-->

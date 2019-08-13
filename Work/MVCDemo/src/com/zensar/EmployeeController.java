@@ -1,0 +1,51 @@
+package com.zensar;
+
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+public class EmployeeController extends HttpServlet{
+			public void doGet(HttpServletRequest request,HttpServletResponse responce) {
+				
+				//addEmployee(request,responce);
+				viewAllEmployees(request, responce);
+			}
+			public void viewAllEmployees(HttpServletRequest request,HttpServletResponse responce) {
+				EmployeeDAO employeeDAO=new EmployeeDAO();
+				
+				List<Employee> list=employeeDAO.viewAllEmployees();
+				HttpSession session=request.getSession();
+				session.setAttribute("list",list);
+				try {
+					responce.sendRedirect("viewAllEmployees.jsp");
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			public void addEmployee(HttpServletRequest request,HttpServletResponse responce) {
+				int empId = Integer.parseInt(request.getParameter("empId"));
+				String name=request.getParameter("name");
+				int salary = Integer.parseInt(request.getParameter("salary"));
+				EmployeeDAO employeeDAO =new EmployeeDAO();
+				employeeDAO.addEmployee(new Employee(empId,name,salary));
+			}
+			public void update(HttpServletRequest request) 
+			{	
+				int id=Integer.parseInt(request.getParameter("empId"));
+				int salary = Integer.parseInt(request.getParameter("salary"));
+				EmployeeDAO employeeDAO=new EmployeeDAO();
+				employeeDAO.updateRecord();
+			} 
+			public void delete(HttpServletRequest request) {
+				int id=Integer.parseInt(request.getParameter("empId"));
+				EmployeeDAO employeeDAO=new EmployeeDAO();
+				employeeDAO.deleteRecord();
+				
+			}
+}

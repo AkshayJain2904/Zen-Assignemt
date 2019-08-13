@@ -1,0 +1,5 @@
+package com.phonix.shop.entities;
+
+public class Product {
+
+}

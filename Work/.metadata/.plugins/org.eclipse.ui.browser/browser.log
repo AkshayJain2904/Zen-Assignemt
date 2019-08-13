@@ -1,0 +1,57 @@
+
+Jul 16, 2019 14:36:54.04 NEW SESSION
+Jul 16, 2019 14:36:54.04 [14320:4380:0716/143654.039:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 16, 2019 14:43:21.35 [14320:4380:0716/144321.350:ERROR:browser_process_sub_thread.cc(221)] Waited 112 ms for network service
+Jul 16, 2019 14:43:45.00 [8188:1444:0716/144345.005:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 16, 2019 14:51:34.46 [8188:1444:0716/145134.466:ERROR:browser_process_sub_thread.cc(221)] Waited 156 ms for network service
+Jul 16, 2019 14:54:13.88 [10016:10160:0716/145413.875:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+
+Jul 17, 2019 12:02:17.71 NEW SESSION
+Jul 17, 2019 12:02:17.71 [14880:14472:0717/120217.710:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 12:26:27.41 [14880:14472:0717/122627.418:ERROR:browser_process_sub_thread.cc(221)] Waited 393 ms for network service
+Jul 17, 2019 12:29:34.27 [5648:3228:0717/122934.273:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 13:45:32.85 [5648:3228:0717/134532.850:ERROR:browser_process_sub_thread.cc(221)] Waited 188 ms for network service
+Jul 17, 2019 13:45:47.33 [9680:14496:0717/134547.333:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 13:47:15.68 [9680:14496:0717/134715.679:ERROR:browser_process_sub_thread.cc(221)] Waited 145 ms for network service
+Jul 17, 2019 13:47:35.73 [9344:9528:0717/134735.735:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 13:48:26.37 [9344:9528:0717/134826.375:ERROR:browser_process_sub_thread.cc(221)] Waited 198 ms for network service
+Jul 17, 2019 13:48:42.43 [14992:7944:0717/134842.437:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 13:53:02.66 [14992:7944:0717/135302.667:ERROR:browser_process_sub_thread.cc(221)] Waited 99 ms for network service
+Jul 17, 2019 13:53:17.63 [656:1264:0717/135317.630:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 14:06:15.54 [656:1264:0717/140615.548:ERROR:browser_process_sub_thread.cc(221)] Waited 182 ms for network service
+Jul 17, 2019 14:06:31.76 [8260:7356:0717/140631.764:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 14:22:46.33 [8260:7356:0717/142246.331:ERROR:browser_process_sub_thread.cc(221)] Waited 215 ms for network service
+Jul 17, 2019 14:23:01.36 [2752:1116:0717/142301.367:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 14:25:29.91 [2752:1116:0717/142529.913:ERROR:browser_process_sub_thread.cc(221)] Waited 190 ms for network service
+Jul 17, 2019 14:36:33.40 [14992:10640:0717/143633.397:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 17, 2019 15:01:52.96 [14992:10640:0717/150152.958:ERROR:browser_process_sub_thread.cc(221)] Waited 170 ms for network service
+
+Jul 18, 2019 12:13:23.35 NEW SESSION
+Jul 18, 2019 12:13:23.35 [4504:10224:0718/121323.347:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 18, 2019 15:57:18.31 [4504:10224:0718/155718.318:ERROR:browser_process_sub_thread.cc(221)] Waited 10000 ms for network service
+
+Jul 19, 2019 17:17:58.67 NEW SESSION
+Jul 19, 2019 17:17:58.67 [11788:4824:0719/171758.670:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+
+Jul 20, 2019 08:57:14.24 NEW SESSION
+Jul 20, 2019 08:57:14.24 [5392:5208:0720/085714.241:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 20, 2019 08:59:29.60 [13272:3120:0720/085929.597:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 20, 2019 08:59:29.60 [13272:3120:0720/085929.599:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 20, 2019 08:59:29.60 [13272:3120:0720/085929.599:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 20, 2019 08:59:29.60 [13272:3120:0720/085929.599:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 20, 2019 08:59:29.85 Opening in existing browser session.
+Jul 20, 2019 09:06:15.57 [8228:11804:0720/090615.573:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 20, 2019 09:06:15.57 [8228:11804:0720/090615.574:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 20, 2019 09:06:15.57 [8228:11804:0720/090615.574:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 20, 2019 09:06:15.58 [8228:11804:0720/090615.574:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 20, 2019 09:06:15.91 Opening in existing browser session.
+Jul 20, 2019 09:20:15.44 [5392:5208:0720/092015.351:ERROR:browser_process_sub_thread.cc(221)] Waited 116 ms for network service
+Jul 20, 2019 09:20:31.26 [10292:4800:0720/092031.260:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 20, 2019 09:22:27.20 [13872:9196:0720/092227.198:ERROR:cache_util_win.cc(21)] Unable to move the cache: Access is denied. (0x5)
+Jul 20, 2019 09:22:27.20 [13872:9196:0720/092227.199:ERROR:cache_util.cc(141)] Unable to move cache folder C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache to C:\Users\TRG\AppData\Local\Google\Chrome\User Data\ShaderCache\old_GPUCache_000
+Jul 20, 2019 09:22:27.20 [13872:9196:0720/092227.199:ERROR:disk_cache.cc(178)] Unable to create cache
+Jul 20, 2019 09:22:27.20 [13872:9196:0720/092227.199:ERROR:shader_disk_cache.cc(623)] Shader Cache Creation failed: -2
+Jul 20, 2019 09:22:27.57 Opening in existing browser session.
+Jul 20, 2019 09:23:22.03 [10292:4800:0720/092322.037:ERROR:browser_process_sub_thread.cc(221)] Waited 147 ms for network service
+Jul 20, 2019 09:26:09.00 [11628:12052:0720/092608.998:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 20, 2019 09:30:20.37 [11628:12052:0720/093020.376:ERROR:browser_process_sub_thread.cc(221)] Waited 81 ms for network service

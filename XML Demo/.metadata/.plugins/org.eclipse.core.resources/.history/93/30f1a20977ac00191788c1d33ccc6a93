@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zen:movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:zen="http://www.zensar.com/movies" xsi:schemaLocation="http://www.zensar.com/movies movies.xsd ">
+  <zen:movie>
+    <zen:code>0</zen:code>
+  </zen:movie>
+  <zen:title>zen:title</zen:title>
+  <zen:theater-name>zen:theater-name</zen:theater-name>
+</zen:movies>

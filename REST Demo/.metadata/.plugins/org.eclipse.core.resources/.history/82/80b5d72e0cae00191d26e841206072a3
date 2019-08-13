@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Trivago Hotels</title>
+<style type="text/css">
+body{
+	background-color: red;
+}
+</style>
+</head>
+<body>
+	<h3>How do say Hello?</h3>
+	<h2><a href="http://localhost:8056/HelloWebServices/zenrest/zenhello/welcomexml"></a></h2>
+</body>
+</html>

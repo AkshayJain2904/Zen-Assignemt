@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT telecom (telecoms+)>
+<!ELEMENT telecoms (cust_name,mobile_number,plan_type,total_duration,bill_amount)>
+<!ELEMENT cust_name (#PCDATA)>
+<!ELEMENT mobile_number (#PCDATA)>
+<!ELEMENT plan_type (#PCDATA)>
+<!ELEMENT total_duration (#PCDATA)>
+<!ELEMENT bill_amount (#PCDATA)>

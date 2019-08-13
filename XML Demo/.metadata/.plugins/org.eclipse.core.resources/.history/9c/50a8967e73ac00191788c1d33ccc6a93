@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.zensar.com/movies" xmlns:zen="http://www.zensar.com/movies" elementFormDefault="qualified">
+<element name="movies">
+	<complexType>
+		<sequence>
+			<element name="movie">
+				<complexType>
+					<sequence>
+							<element name="code">
+								<simpleType>
+									<restriction base="int">
+										<totalDigits value="4"></totalDigits>
+										<minInclusive value="5001"></minInclusive>
+										<minExclusive value="6000"></minExclusive>
+									</restriction>
+								</simpleType>
+							</element>
+					</sequence>
+				</complexType>
+			</element>
+				<element name="title" type="string"></element>
+				<element name="release-date" type="date" minOccurs="0"></element>
+		</sequence>
+	</complexType>
+</element>
+
+</schema>

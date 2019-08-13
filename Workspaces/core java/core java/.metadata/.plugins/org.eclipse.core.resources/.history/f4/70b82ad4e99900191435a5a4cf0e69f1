@@ -1,0 +1,33 @@
+package assignmentdaytwo;
+
+import java.util.Scanner;
+
+public class ArrayOne {
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int temp[]=new int[5];
+		int a[]=new int[5];
+		System.out.println("Enter the elements of array");
+		for(int i=0;i<a.length;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		for(int i=0;i<a.length;i++)
+		{
+			for(int j=a.length;j>=0;j--)
+			{
+				if(a[i]>a[j])
+				{
+					temp[i]=a[i];
+				}
+			}
+		}
+		for(int x:temp)
+		{
+			System.out.println("element of the array is"+temp[x]);
+		}
+		
+		
+	}
+}

@@ -1,0 +1,31 @@
+
+Jul 25, 2019 12:27:21.63 NEW SESSION
+Jul 25, 2019 12:27:21.63 [15232:14448:0725/122721.628:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 25, 2019 13:04:46.28 [15232:14448:0725/130446.285:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -106
+
+Jul 25, 2019 15:02:09.84 NEW SESSION
+Jul 25, 2019 15:02:09.84 [14684:8200:0725/150209.835:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+
+Jul 26, 2019 12:29:08.83 NEW SESSION
+Jul 26, 2019 12:29:08.83 [3792:13328:0726/122908.831:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 12:29:38.15 [3792:13328:0726/122938.152:ERROR:browser_process_sub_thread.cc(221)] Waited 196 ms for network service
+Jul 26, 2019 12:30:12.30 [4300:1760:0726/123012.305:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 14:47:16.84 [4300:1760:0726/144716.846:ERROR:browser_process_sub_thread.cc(221)] Waited 132 ms for network service
+
+Jul 26, 2019 17:09:48.70 NEW SESSION
+Jul 26, 2019 17:09:48.70 [11440:13268:0726/170948.705:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 17:10:04.31 [11440:13268:0726/171004.314:ERROR:browser_process_sub_thread.cc(221)] Waited 104 ms for network service
+Jul 26, 2019 17:12:58.61 [6152:6752:0726/171258.612:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 17:55:04.59 [6152:6752:0726/175504.591:ERROR:browser_process_sub_thread.cc(221)] Waited 179 ms for network service
+
+Jul 26, 2019 18:19:35.70 NEW SESSION
+Jul 26, 2019 18:19:35.70 [11792:6536:0726/181935.706:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 18:19:39.40 [11792:6536:0726/181939.403:ERROR:browser_process_sub_thread.cc(221)] Waited 127 ms for network service
+Jul 26, 2019 18:20:07.06 [788:13484:0726/182007.061:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 18:21:05.70 [788:13484:0726/182105.707:ERROR:browser_process_sub_thread.cc(221)] Waited 117 ms for network service
+Jul 26, 2019 18:21:25.60 [4852:5564:0726/182125.604:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 18:53:47.64 [4852:5564:0726/185347.643:ERROR:browser_process_sub_thread.cc(221)] Waited 134 ms for network service
+Jul 26, 2019 19:01:42.03 [15252:4192:0726/190142.035:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 19:02:02.93 [15252:4192:0726/190202.931:ERROR:browser_process_sub_thread.cc(221)] Waited 129 ms for network service
+Jul 26, 2019 19:49:37.59 [4060:12064:0726/194937.590:ERROR:connection_factory_impl.cc(413)] Failed to connect to MCS endpoint with error -102
+Jul 26, 2019 19:49:58.97 [4060:12064:0726/194958.977:ERROR:browser_process_sub_thread.cc(221)] Waited 116 ms for network service

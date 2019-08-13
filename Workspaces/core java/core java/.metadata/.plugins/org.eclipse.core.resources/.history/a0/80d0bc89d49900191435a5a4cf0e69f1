@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Employee {
+	private int empid;
+	private String name;
+	private double salary;
+	
+	public void accept()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the details");
+		empid=sc.nextInt();
+		name=sc.next();
+		salary=sc.nextDouble();
+	}
+	public void display()
+	{
+		System.out.println("Empid is:-"+empid+" Name is:-"+name+" and Salary is"+salary);
+	}
+}
+public class Test {
+	public static void main(String args[])
+	{
+		
+	    Employee e1=new Employee();
+	    e1.accept();
+	    e1.display();
+	    
+	}
+}
